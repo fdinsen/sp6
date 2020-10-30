@@ -40,6 +40,8 @@ function DisplayBooks(props) {
 
 }
 
+
+//Parent component, owns two children who need to communicate
 function Parent() {
   const [degreesF, setDegreesF] = useState(0);
   const update = (event) => {
